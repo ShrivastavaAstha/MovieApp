@@ -1,0 +1,15 @@
+.contents {
+    background-color:rgba(166, 101, 163, 0.8); 
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding-left:10vmin;
+    padding-right:10vmin;
+    padding-bottom:4vmin;
+    padding-top:6vmin;
+     position:fixed;
+    text-align:center;
+    top:60%;
+    transform:translate(-50%, -50%);
+    }

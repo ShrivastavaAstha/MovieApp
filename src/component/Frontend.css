@@ -1,0 +1,210 @@
+.frontend{
+    /* background: linear-gradient(to right, #4caf50,#4caf50 33%,#8bc34a 66%,#cddc39 66%); */
+    text-align: center;
+    background-color: purple;
+    background-image: linear-gradient(45deg, transparent 20%, rgb(149, 143, 143) 25%, transparent 25%),
+    linear-gradient(-45deg, transparent 20%, rgb(149, 143, 143) 25%, transparent 25%),
+    linear-gradient(-45deg, transparent 75%, rgb(138, 131, 131) 80%, transparent 0), 
+    radial-gradient(rgb(199, 191, 191) 2px, transparent 0);
+    background-size: 30px 30px, 30px 30px;
+  
+}
+     
+    
+.Notes{
+    font-family: 'Dancing Script', cursive;
+    border:8px solid #b791ab;
+    border-style:groove;
+    border-radius: 100px;
+    height:auto;
+    width:auto;
+    word-break: break-all;
+   
+    font-style:italic;
+    background-image: linear-gradient(45deg, transparent 20%, rgb(212, 209, 209) 25%, transparent 25%),
+    linear-gradient(-45deg, transparent 20%, rgb(212, 209, 209) 25%, transparent 25%),
+    linear-gradient(-45deg, transparent 75%, rgb(212, 209, 209) 80%, transparent 0), 
+    radial-gradient(rgb(199, 191, 191) 2px, transparent 0);
+    background-size: 30px 30px, 30px 30px;
+    background-image: linear-gradient(45deg, transparent 20%,rgb(212, 209, 209) 25%, transparent 25%),
+    linear-gradient(-45deg, transparent 20%, rgb(212, 209, 209) 25%, transparent 25%),
+    linear-gradient(-45deg, transparent 75%, rgb(212, 209, 209) 80%, transparent 0),
+    linear-gradient(45deg, transparent 75%, rgb(212, 209, 209) 80%, transparent 0),
+    radial-gradient(rgb(179, 161, 161) 2px, transparent 0);
+  
+}
+
+ 
+
+button{
+    /* background-color: rgb(112, 110, 3);
+    color:white; */
+    margin-right: 14px;
+    margin-left: 14px;
+    border-radius: 6px;
+    border-color: black;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.outerbox{
+   
+    color: purple;
+   font-size: large;
+    border:10px solid #b791ab;
+    border-radius: 28px;
+    border-style: double;
+    background-size: 30px 30px, 30px 30px;  
+    background-color: #b791ab;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #e7e9ef55, #c1c2c9 );  
+}
+
+.headbox{
+    color:yellow;
+    font-style: italic;
+    /* border:7px groove #b791ab;
+    border-radius: 10px; */
+    text-align: center;
+    text-shadow: 1.5px 1.5px black;
+    padding-bottom: 10px;
+    /* padding-top: 2px; */
+    /* background-color: #b791ab;
+    background-size:  13px 13px, 29px 29px, 37px 37px, 53px 53px;
+    background-image: -webkit-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -webkit-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -webkit-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -webkit-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+    background-image: -moz-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -moz-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -moz-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -moz-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+    background-image: -ms-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -ms-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+    background-image: -o-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -o-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+    background-image: linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%); */
+}
+@keyframes blink {
+    0%{opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:1;}
+  }
+  h2{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px purple;
+  }
+
+/*sea wave pattern
+background-color:#026873;
+background-size:  13px 13px, 29px 29px, 37px 37px, 53px 53px;
+background-image: -webkit-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -webkit-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -webkit-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -webkit-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+background-image: -moz-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -moz-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -moz-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -moz-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+background-image: -ms-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -ms-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+background-image: -o-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -o-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+background-image: linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);  */
+
+/* brick pattern
+ background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%),
+linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%),
+linear-gradient(-45deg, transparent 75%, black 80%, transparent 0), 
+radial-gradient(gray 2px, transparent 0);
+background-size: 30px 30px, 30px 30px; */
+
+/* radial circle pattern
+background-size: 30px 30px, 30px 30px;  
+background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #f1f2f455, #f2f3fc );   */
+
+/* Navbar container */
+.navbar {
+    background-color: #eedbed;
+    padding: 10px 20px;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Navbar menu items */
+  .nav-item {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    opacity:0;
+    animation:slideBottom 1s ease forwards;
+    animation-delay: .3s;
+    
+    
+  }
+  @keyframes slideBottom{
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform:translateY(0px);
+      opacity:1;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Hamburger menu icon */
+  .navbar-toggler {
+    display:none;
+    background: none;
+    color:#eedbed;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+ 
+   /* .navbar-icon {
+    display: block;
+     width: 25px;
+    height: 2px;
+    background-color: #333;
+    margin: 5px;
+    transition: transform 0.3s;
+    box-sizing: border-box;
+    border:8px double white; 
+  }
+  
+  .navbar-icon.open {
+    transform: rotate(45deg);
+  }  */
+  
+  /* Navbar menu for small screens */
+  
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      display: block;
+      color:black;
+    }
+  
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      align-items:end;
+      width: 100%;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background-color:transparent;
+      padding: 10px 0;
+    }
+    a{
+      color: white;
+    }
+  
+    .navbar-menu.open {
+      display: flex;
+    }
+  
+    .nav-item {
+      margin-bottom: 10px;
+    }
+  }

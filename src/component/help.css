@@ -1,0 +1,81 @@
+.help{
+    background-color:white;
+}
+/* Navbar container */
+.navbar {
+    background-color: #eedbed;
+    padding: 10px 20px;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Navbar menu items */
+  .nav-item {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+   
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Hamburger menu icon */
+  .navbar-toggler {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .navbar-icon {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #333;
+    margin: 5px;
+    transition: transform 0.3s;
+    box-sizing: border-box;
+    border:8px double white;
+  }
+  
+  .navbar-icon.open {
+    transform: rotate(45deg);
+  }
+  
+  /* Navbar menu for small screens */
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      display: block;
+    }
+  
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background-color: #f2f2f2;
+      padding: 10px 0;
+    }
+  
+    .navbar-menu.open {
+      display: flex;
+    }
+  
+    .nav-item {
+      margin-bottom: 10px;
+    }
+  }
