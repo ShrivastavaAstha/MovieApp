@@ -18,12 +18,6 @@ const Signup = () => {
   const [password, setpassword] = useState("");
   const [passworderror, setpwerror] = useState("");
   const [accountcreated, setaccountcreated] = useState(false);
-  const navigate = useNavigate();
-  //------------------------function to play button audio------
-  const soundfn = () => {
-    const audio = new Audio(`${process.env.PUBLIC_URL}/sound.wav`);
-    audio.play();
-  };
 
   //-------------------------add account api call--------------
   const addaccount = async () => {

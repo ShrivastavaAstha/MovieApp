@@ -9,14 +9,13 @@ import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import MenuIcon from "@mui/icons-material/Menu";
 import HelpIcon from "@mui/icons-material/Help";
 // import LogoutIcon from "@mui/icons-material/Logout";
-// import { useLocation, useNavigate } from "react-router-dom";
+
 <link
   href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=DynaPuff&display=swap"
   rel="stylesheet"
 />;
 
 const MovieManager = () => {
-  // const location = useLocation();
   const [movie, setmovie] = useState([]);
   const [name, setname] = useState("");
   const [rating, setrating] = useState("");
@@ -129,14 +128,6 @@ const MovieManager = () => {
     getdata();
   }, []);
 
-  // const location = useLocation();
-  // const authToken = localStorage.getItem("authToken");
-  // const navigate = useNavigate();
-  // if (!authToken) {
-  //   navigate("/login", { state: { from: location.login } });
-  //   return null;
-  // }
-
   //-----------------------------------------------------------------------------
   const [isNavOpen, setIsNavOpen] = useState(false);
   const toggleNav = () => {
@@ -161,9 +152,6 @@ const MovieManager = () => {
             >
               MovieApp
             </div>
-            {/* <button className="navbar-toggler" onClick={toggleNav}>
-              <span className={`navbar-icon ${isNavOpen ? "open" : ""}`} />
-            </button> */}
             <MenuIcon className="navbar-toggler" onClick={toggleNav} />
             <ul className={`navbar-menu ${isNavOpen ? "open" : ""}`}>
               <li className="nav-item">
@@ -281,19 +269,6 @@ const MovieManager = () => {
           <br />
           <br />
 
-          {/* ---------------------------------------------------------------- */}
-          {/* <button onClick={handleButtonClick}>
-            {showlist ? "Hide Movie List" : "Show Movie List"}
-          </button>
-          {showlist && (
-            <ul>
-              {movie.map((item, index) => (
-                <li key={index}>{item.original_title}</li>
-              ))}
-            </ul>
-          )} */}
-          {/* <button onClick={() => navigate("/login")}>Logout</button> */}
-          {/* ---------------------------------------------------------------- */}
           <br />
         </div>
 

@@ -28,7 +28,6 @@ const Homepage = () => {
           The best app to store your movie experiences and search about your
           favourite movies.
         </h3>
-        {/* <form onSubmit={handlelogin}> */}
 
         <br />
         <br />
@@ -37,8 +36,6 @@ const Homepage = () => {
             <button onClick={() => soundfn()}>Get Started</button>
           </Link>
         </div>
-
-        {/* </form> */}
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Login.css";
 import PersonIcon from "@mui/icons-material/Person";
 import EnhancedEncryptionIcon from "@mui/icons-material/EnhancedEncryption";
-import axios from "axios";
 
 const Login = () => {
   const [email, setemail] = useState("");
@@ -95,8 +95,7 @@ const Login = () => {
             </a>
             <br />
             <br />
-            {/* <Link to="/Frontend"> */}
-            <button onClick={() => buttonfn()}>Login</button> {/* </Link> */}
+            <button onClick={() => buttonfn()}>Login</button>
           </form>
           <br />
           <Link to="/">
@@ -112,7 +111,6 @@ const Login = () => {
               type="button"
               style={{
                 backgroundColor: "rgba(255,255,255,.8)",
-                // border: "2px solid purple",
                 borderRadius: "10px",
                 color: "purple",
               }}

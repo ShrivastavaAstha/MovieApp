@@ -56,9 +56,6 @@ const MovieList = () => {
           >
             MovieApp
           </div>
-          {/* <button className="navbar-toggler" onClick={toggleNav}>
-            <span className={`navbar-icon ${isNavOpen ? "open" : ""}`} />
-          </button> */}
           <MenuIcon className="navbar-toggler" onClick={toggleNav} />
           <ul className={`navbar-menu ${isNavOpen ? "open" : ""}`}>
             <li className="nav-item">

@@ -1,5 +1,4 @@
 import React from "react";
-import { useParams, useLocation } from "react-router-dom";
 import { useState } from "react";
 
 import { Link } from "react-router-dom";
@@ -11,8 +10,6 @@ const Main = () => {
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
-
-  const location = useLocation();
 
   const soundfn = () => {
     const audio = new Audio(`${process.env.PUBLIC_URL}/sound.wav`);
@@ -33,9 +30,6 @@ const Main = () => {
           >
             MovieApp
           </div>
-          {/* <button className="navbar-toggler" onClick={toggleNav}>
-            <span className={`navbar-icon ${isNavOpen ? "open" : ""}`} />
-          </button> */}
           <MenuIcon className="navbar-toggler" onClick={toggleNav} />
 
           <ul className={`navbar-menu ${isNavOpen ? "open" : ""}`}>
