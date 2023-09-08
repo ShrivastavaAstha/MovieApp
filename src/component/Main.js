@@ -14,11 +14,6 @@ const Main = () => {
 
   const location = useLocation();
 
-  // const searchParams = new URLSearchParams(location.search);
-  // const email = searchParams.get(email);
-  // if (!email) {
-  //   return <div>No email found</div>;
-  // }
   const soundfn = () => {
     const audio = new Audio(`${process.env.PUBLIC_URL}/sound.wav`);
     audio.play();

@@ -2,19 +2,6 @@ import { Link } from "react-router-dom";
 import "./Homepage.css";
 
 const Homepage = () => {
-  // const navigate = useNavigate();
-
-  // const handlelogin = async (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     const response = await axios.post("/api/login", { email, password });
-  //     localStorage.setItem("authToken", response.data.token);
-  //     navigate("/Frontend");
-  //   } catch (error) {
-  //     console.error("Login failed", error);
-  //   }
-  // };
-  //
   const soundfn = () => {
     const audio = new Audio(`${process.env.PUBLIC_URL}/sound.wav`);
     audio.play();

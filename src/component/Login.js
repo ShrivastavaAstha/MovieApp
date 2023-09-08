@@ -13,24 +13,6 @@ const Login = () => {
   const [password, setpassword] = useState("");
   // const [showPassword, setshowPassword] = useState(false);
 
-  // const loginUser = async (e) => {
-  //   e.preventDefault();
-  //   const res = await fetch("/api/login", {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/json" },
-  //     body: JSON.stringify({
-  //       email,
-  //       password,
-  //     }),
-  //   });
-  //   const data = res.json();
-  //   if (res.status === 400 || !data) {
-  //     window.alert("Invalid Credential");
-  //   } else {
-  //     window.alert("Login successful");
-  //     navigate("/");
-  //   }
-  // };
   const navigate = useNavigate();
   const soundfn = () => {
     const audio = new Audio(`${process.env.PUBLIC_URL}/sound.wav`);
